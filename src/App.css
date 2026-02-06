@@ -1,0 +1,40 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+.slides {
+  border-radius: 5px;
+}
+
+.slides-hidden {
+  display: none;
+}
+
+.arrow {
+  position: absolute;
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+.arrow-left {
+  left: 0.5rem;
+}
+
+.arrow-right {
+  right: 71.5%;
+}
